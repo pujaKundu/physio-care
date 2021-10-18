@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "service_name": "Medical",
+    "service_description": "The medical services wing (MSW) of Physio Care comprises of sets of process requirements and outcome measures, which underpin our approach to clinical care.",
+    "img": "https://ibb.co/51dHyd7"
+  },
+  {
+    "id": 2,
+    "service_name": "Therapy",
+    "service_description": "Therapy services include four different units.In these units patients are given physiotherapy,occupational therapy,pediatricunit, speech and language therapy.",
+    "img": "https://ibb.co/PCsH2hb"
+  },
+  {
+    "id": 3,
+    "service_name": "Rehabilation",
+    "service_description": "Severely disabled people are rehabilated and are given proper treatment and training.",
+    "img": "https://ibb.co/nmF5QLH"
+  },
+
+  {
+    "id": 4,
+    "service_name": "Assistive Device and Technology",
+    "service_description": "Latest devices and technologies are used to give the patients proper treatment.",
+    "img": "https://ibb.co/qxNF0VN"
+  },
+  {
+    "id": 5,
+    "service_name": "Income Generating Activities",
+    "service_description": "Disabled people are given training on different sectors so that they can earn for themselves and are often offered job in Physio Care.",
+    "img": "https://ibb.co/TWvdK9b"
+  },
+  {
+    "id": 6,
+    "service_name": "Education",
+    "service_description": "Physio Care offers education for all. This service can be taken by anyone who is willing to learn.",
+    "img": "https://ibb.co/Jv6rrgL"
+  }
+]
