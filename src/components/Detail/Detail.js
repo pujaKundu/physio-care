@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { useParams } from "react-router-dom";
 
 const Detail = () => {
   let { serviceId } = useParams();
+
   const [details, setDetails] = useState([]);
   const [info, setInfo] = useState([]);
   useEffect(() => {
@@ -12,14 +13,15 @@ const Detail = () => {
   }, []);
   useEffect(() => {
     const foundDetail = details.find(
-      (singleDetail) => singleDetail.id === serviceId
+      (singleDetail) => singleDetail.id == serviceId
     );
-    console.log(foundDetail);
+    setInfo(foundDetail);
   }, [details]);
   return (
-    <div>
-      {serviceId}
-      <p>{info?.service_name}</p>
+    <div className="my-5 mx-5">
+      <img src={info?.img} className="img-fluid" alt="" />
+      <h3>{info?.service_name}</h3>
+      <p>{info?.service_description}</p>
     </div>
   );
 };
