@@ -13,8 +13,8 @@ const phone = <FontAwesomeIcon icon={faPhone} />;
 const location = <FontAwesomeIcon icon={faSearchLocation} />;
 const Footer = () => {
   return (
-    <div className="bg-dark text-white">
-      <h3 className="my-4">
+    <div className="bg-dark text-white mb-0 py-3">
+      <h3 className="mt-4 ">
         <img
           className="rounded-circle"
           width="50"
@@ -24,9 +24,12 @@ const Footer = () => {
         />{" "}
         Physio Care
       </h3>
-      <p>{location} Savar,Dhaka</p>
-      <p>{email} info@physio-care.org</p>
-      <p>{phone} +880 12345678</p>
+      <div>
+        <p>{location} Savar,Dhaka</p>
+        <p>{email} info@physio-care.org</p>
+        <p>{phone} +880 12345678</p>
+        <p>All rights reserved by Physio Care,2021</p>
+      </div>
     </div>
   );
 };

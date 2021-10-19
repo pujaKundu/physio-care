@@ -3,19 +3,19 @@ import { useParams } from "react-router";
 
 const Detail = () => {
   let { serviceId } = useParams();
-  const [detail, setDetail] = useState([]);
+  const [details, setDetails] = useState([]);
   const [info, setInfo] = useState([]);
   useEffect(() => {
     fetch("/services.json")
       .then((res) => res.json())
-      .then((data) => setDetail(data));
+      .then((data) => setDetails(data));
   }, []);
   useEffect(() => {
-    const foundDetail = detail.find(
+    const foundDetail = details.find(
       (singleDetail) => singleDetail.id === serviceId
     );
     console.log(foundDetail);
-  }, [detail]);
+  }, [details]);
   return (
     <div>
       {serviceId}
