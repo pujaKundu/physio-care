@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Work from "./components/Work/Work";
 import Volunteer from "./components/Volunteer/Volunteer";
 import Login from "./components/Login/Login";
+import Detail from "./components/Detail/Detail";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/detail/:serviceId">
+            <Detail></Detail>
           </Route>
         </Switch>
         <Footer></Footer>

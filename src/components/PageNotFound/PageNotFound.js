@@ -3,7 +3,11 @@ import React from "react";
 const PageNotFound = () => {
   return (
     <div>
-      <h1>Not found</h1>
+      <img
+        src="https://image.freepik.com/free-vector/404-error-abstract-concept-illustration_335657-2243.jpg"
+        className="img-fluid"
+        alt=""
+      />
     </div>
   );
 };

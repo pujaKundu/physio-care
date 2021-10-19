@@ -1,0 +1,12 @@
+.service-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-single {
+  background-color: azure;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+  width: 100%;
+}
