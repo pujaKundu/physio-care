@@ -3,13 +3,13 @@ import initializeAuthentication from "../../firebaseFile/firebase.init";
 
 import Button from "@restart/ui/esm/Button";
 
-import useFirebase from "../../hook/useFirebase";
 import Register from "../Register/Register";
+import useAuth from "../../hook/useAuth";
 
 initializeAuthentication();
 
 const Login = () => {
-  const { signInUsingGoogle } = useFirebase();
+  const { signInUsingGoogle } = useAuth();
   return (
     <div>
       <Register />

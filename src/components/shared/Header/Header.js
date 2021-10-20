@@ -2,9 +2,11 @@ import React from "react";
 import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../../images/logo.png";
-import useFirebase from "../../../hook/useFirebase";
+
+import useAuth from "../../../hook/useAuth";
+
 const Header = () => {
-  const { user, logout } = useFirebase();
+  const { user, logout } = useAuth();
   return (
     <>
       <Navbar bg="light" expand="lg">

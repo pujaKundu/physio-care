@@ -1,9 +1,7 @@
-import { Carousel } from "bootstrap";
 import React from "react";
 import med from "../../images/Banner/medical-assistant-helping-patient-with-physiotherapy-exercises.jpg";
-import doc from "../../images/Banner/doctor-with-patient-physiotherapy-clinic.jpg";
-import edu from "../../images/Banner/medium-shot-people-graduating.jpg";
-import { Col, Row, Button, Container } from "react-bootstrap";
+
+import { Col, Row, Container } from "react-bootstrap";
 
 const Banner = () => {
   return (

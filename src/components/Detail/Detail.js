@@ -13,7 +13,7 @@ const Detail = () => {
   }, []);
   useEffect(() => {
     const foundDetail = details.find(
-      (singleDetail) => singleDetail.id == serviceId
+      (singleDetail) => parseInt(singleDetail.id) === parseInt(serviceId)
     );
     setInfo(foundDetail);
   }, [details]);
