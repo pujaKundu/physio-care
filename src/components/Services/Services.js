@@ -11,7 +11,7 @@ const Services = () => {
   }, []);
   return (
     <Container className="my-5">
-      <h1>Our Services</h1>
+      <h1 className="fs-1 my-5 fw-bold">Our Services</h1>
 
       {services.map((service) => (
         <Service key={service.id} service={service}></Service>

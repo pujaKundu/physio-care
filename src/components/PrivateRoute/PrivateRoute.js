@@ -1,9 +1,11 @@
 import React from "react";
+
 import { Redirect, Route } from "react-router";
 import useAuth from "../../hook/useAuth";
 
 const PrivateRoute = ({ children, ...rest }) => {
   const { user } = useAuth();
+
   return (
     <Route
       {...rest}

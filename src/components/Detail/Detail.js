@@ -18,10 +18,10 @@ const Detail = () => {
     setInfo(foundDetail);
   }, [details]);
   return (
-    <div className="my-5 mx-5">
-      <img src={info?.img} className="img-fluid" alt="" />
-      <h3>{info?.service_name}</h3>
-      <p>{info?.service_description}</p>
+    <div className="my-5 mx-5 bg-light rounded">
+      <img src={info?.img} className="img-fluid pt-5" alt="" />
+      <h3 className="fs-2 my-2 text-primary">{info?.service_name}</h3>
+      <p className="pb-5 fs-5 px-5">{info?.service_description}</p>
     </div>
   );
 };

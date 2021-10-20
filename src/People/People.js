@@ -4,7 +4,7 @@ import { Card, CardGroup, Container } from "react-bootstrap";
 const People = () => {
   return (
     <Container className="my-5">
-      <h2 className="my-5">Our Volunteers</h2>
+      <h1 className="my-5 fw-bold">Our Volunteers</h1>
       <CardGroup>
         <Card>
           <Card.Img

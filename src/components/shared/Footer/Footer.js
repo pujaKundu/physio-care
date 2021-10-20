@@ -5,12 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faPhone,
-  faSearchLocation,
+  faCopyright,
+  faMapMarker,
 } from "@fortawesome/free-solid-svg-icons";
 
 const email = <FontAwesomeIcon icon={faEnvelope} />;
 const phone = <FontAwesomeIcon icon={faPhone} />;
-const location = <FontAwesomeIcon icon={faSearchLocation} />;
+const location = <FontAwesomeIcon icon={faMapMarker} />;
+const copyright = <FontAwesomeIcon icon={faCopyright} />;
 const Footer = () => {
   return (
     <div className="bg-dark text-white mb-0 py-3">
@@ -28,7 +30,7 @@ const Footer = () => {
         <p>{location} Savar,Dhaka</p>
         <p>{email} info@physio-care.org</p>
         <p>{phone} +880 12345678</p>
-        <p>All rights reserved by Physio Care,2021</p>
+        <p>{copyright}All rights reserved by Physio Care,2021</p>
       </div>
     </div>
   );
