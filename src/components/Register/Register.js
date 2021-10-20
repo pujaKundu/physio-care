@@ -126,11 +126,11 @@ const Register = () => {
               Already Registered?
             </InputGroup>
           </Col>
-          <Col sm="10">
+          <Col sm="10" className="ms-5">
             <Button
               variant="dark"
               onClick={handleRegistration}
-              className="mt-3"
+              className="mt-3 "
             >
               {isLogin ? "Login" : "Register"}
             </Button>
